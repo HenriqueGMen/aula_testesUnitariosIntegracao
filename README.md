@@ -28,7 +28,7 @@ test('multiply function multiplies two numbers correctly', () => {
 });
 ```
 
-Os testes unitários estão focados em testar unidades individuais de código, neste caso, as funções add e multiply
+Os testes unitários estão focados em testar unidades individuais de código, neste caso, as funções <b>add</b> e <b>multiply</b>.
 
 ## Testes de Integração
 
