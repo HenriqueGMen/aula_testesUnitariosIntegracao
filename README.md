@@ -8,7 +8,7 @@ Os testes unitários são usados para verificar o comportamento de uma única un
 
 ### Exemplo de Teste Unitário
 
-Aqui está um exemplo de um teste unitário para uma função `aplicarDesconto`:
+Aqui está um exemplo de um teste unitário para as funções `add` e `multiply`:
 
 ```javascript
 function add(a, b) {
