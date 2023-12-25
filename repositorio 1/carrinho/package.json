@@ -8,13 +8,14 @@
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "tests": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles"
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@types/jest": "^29.5.11",
     "jest": "^28.1.0"
   }
 }

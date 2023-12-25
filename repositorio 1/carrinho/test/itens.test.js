@@ -12,6 +12,6 @@ describe('Teste para os itens', () => {
   it('Deve ter o preço calculado de acordo com a quantidade', () => {
     const item1 = new Item('Batata', 0.1, 3);
 
-    expect(item1.pegaValorTotalItem()).toBeCloseTo(32);
+    expect(item1.pegaValorTotalItem()).toBeCloseTo(0.3);
   });
 });
